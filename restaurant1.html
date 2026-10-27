@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7efdf">
+  <meta name="description" content="愛犬と一緒にくつろげる、莫平方（モーファン）ペットカフェ。">
+  <title>莫平方 m² café｜ペットと過ごすカフェ</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <main>
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <div class="hero-shade"></div>
+      <header class="site-header" data-reveal>
+        <a class="brand-mark" href="#top" aria-label="莫平方 ホーム">
+          <img src="img/dog logo.png" alt="犬のロゴ">
+        </a>
+        <form class="search" role="search" action="#news" autocomplete="off">
+          <label class="visually-hidden" for="site-search">サイト内を検索</label>
+          <span class="search-icon" aria-hidden="true"></span>
+          <input id="site-search" name="q" type="search" placeholder="検索する" aria-autocomplete="list" aria-controls="search-results" aria-expanded="false">
+          <button type="submit" aria-label="検索"></button>
+          <ul class="search-results" id="search-results" role="listbox" aria-label="店舗候補" hidden></ul>
+        </form>
+        <nav class="main-nav" aria-label="メインナビゲーション">
+          <a href="#news">ニュース</a>
+          <a href="#services">サービス</a>
+          <a href="#access">アクセス</a>
+        </nav>
+      </header>
+      <div class="hero-content">
+        <img class="hero-logo" src="img/店面(1)LOGO.jpg" alt="莫平方 m² café のロゴ" data-reveal>
+        <h1 id="hero-title" class="visually-hidden">莫平方 m² café</h1>
+        <p data-reveal>愛犬と一緒に、心地よいカフェ時間を。</p>
+        <div class="hero-actions" data-reveal>
+          <a class="button button-dark" href="#services">お店紹介</a>
+          <a class="button button-light" href="https://line.me/ti/p/4Zc_ZVruey" target="_blank" rel="noopener noreferrer">ご予約</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="news-section" id="news" aria-labelledby="news-title">
+      <div class="section-inner">
+        <header class="news-heading" data-reveal>
+          <div>
+            <p class="news-eyebrow">莫平方からのお知らせ</p>
+            <h2 id="news-title">ニュース</h2>
+          </div>
+          <p class="news-intro">お店からのお知らせをお届けします。</p>
+        </header>
+        <div class="news-layout">
+          <div class="news-list">
+            <article class="news-card" data-reveal>
+              <img src="img/n1.jpg" alt="" loading="lazy">
+              <div><time datetime="2026-10"><span class="news-dot"></span>お知らせ</time><p>メニュー価格改定のお知らせ</p></div>
+              <span class="news-arrow" aria-hidden="true">↗</span>
+            </article>
+            <article class="news-card" data-reveal>
+              <img src="img/n2.jpg" alt="" loading="lazy">
+              <div><time datetime="2026-10"><span class="news-dot"></span>新メニュー</time><p>季節限定メニューが登場</p></div>
+              <span class="news-arrow" aria-hidden="true">↗</span>
+            </article>
+          </div>
+          <aside class="news-side-card" aria-label="莫平方カフェ">
+            <div class="news-side-caption" data-reveal>
+              <span>MO² CAFÉ</span>
+              <p>愛犬と一緒に<br>ほっとひと息。</p>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <div class="interior-banner" role="img" aria-label="莫平方カフェの店内" data-reveal></div>
+
+    <section class="details-section" id="services" aria-labelledby="services-title">
+      <div class="details-inner">
+        <p class="eyebrow" data-reveal>ようこそ、莫平方へ</p>
+        <h2 id="services-title" data-reveal>愛犬と過ごす、やさしい時間</h2>
+        <p class="details-copy" data-reveal>
+          莫平方は、ペットと一緒にくつろげるカフェです。コーヒーやスイーツを楽しみながら、特別なひとときをお過ごしください。
+        </p>
+        <div class="service-gallery" aria-label="莫平方のメニューとサービス">
+          <figure data-reveal>
+            <img src="img/e1.png" alt="季節のフルーツを使った犬用ケーキ" loading="lazy">
+            <figcaption><h3>特別な日のケーキ</h3><p>愛犬のお誕生日や記念日にぴったりのケーキをご用意しています。</p></figcaption>
+          </figure>
+          <figure data-reveal>
+            <img src="img/e2.png" alt="愛犬用のお食事" loading="lazy">
+            <figcaption><h3>愛犬と楽しむお食事</h3><p>大切な愛犬と一緒に、カフェでのお食事をお楽しみください。</p></figcaption>
+          </figure>
+          <figure data-reveal>
+            <img src="img/e3.png" alt="店内のペット用品コーナー" loading="lazy">
+            <figcaption><h3>ペットフレンドリーな空間</h3><p>愛犬と一緒にゆっくり過ごせる、居心地のよい店内です。</p></figcaption>
+          </figure>
+        </div>
+        <div class="visit-info" id="access" data-reveal>
+          <div class="contact-info">
+            <p class="eyebrow">VISIT US</p>
+            <h3>アクセス・お問い合わせ</h3>
+            <dl>
+              <div><dt>住所</dt><dd>台湾・桃園市中壢区文昌路225巷32弄16号</dd></div>
+              <div><dt>電話</dt><dd><a href="tel:+88632872487">03-287-2487</a></dd></div>
+              <div><dt>メール</dt><dd><a href="mailto:inmuking1919@gmail.com">inmuking1919@gmail.com</a></dd></div>
+            </dl>
+            <a class="button button-dark" href="https://www.google.com/maps/search/?api=1&amp;query=桃園市中壢區文昌路225巷32弄16號" target="_blank" rel="noopener noreferrer">地図アプリで開く</a>
+          </div>
+          <iframe
+            class="access-map"
+            src="https://maps.google.com/maps?q=%E6%A1%83%E5%9C%92%E5%B8%82%E4%B8%AD%E5%A3%A2%E5%8D%80%E6%96%87%E6%98%8C%E8%B7%AF225%E5%B7%B732%E5%BC%8416%E8%99%9F&output=embed"
+            title="莫平方カフェの地図"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" data-reveal>
+    <p>莫平方 m² café</p>
+    <small>愛犬と一緒に、素敵なカフェ時間を。</small>
+  </footer>
+  <script>
+    const items = document.querySelectorAll("[data-reveal]");
+    const show = (item) => item.classList.add("is-visible");
+
+    if (window.matchMedia("(prefers-reduced-motion: reduce)").matches || !("IntersectionObserver" in window)) {
+      items.forEach(show);
+    } else {
+      document.documentElement.classList.add("motion-ready");
+      const observer = new IntersectionObserver((entries, currentObserver) => {
+        entries.forEach(({ isIntersecting, target }) => {
+          if (isIntersecting) {
+            show(target);
+            currentObserver.unobserve(target);
+          }
+        });
+      }, { threshold: 0.15 });
+      items.forEach((item) => observer.observe(item));
+    }
+  </script>
+</body>
+</html>
